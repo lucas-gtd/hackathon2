@@ -37,7 +37,7 @@ body {
 label{
   color: green;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 .page-header {
   padding-bottom: 9px;

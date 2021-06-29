@@ -22,7 +22,7 @@ label{
     margin-top: 40px;
     color: green;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
   }
 
 .chat-col.chat-opened {
