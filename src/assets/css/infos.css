@@ -13,10 +13,10 @@
 #file{
   width:100%;
 }
-label{
+.classlabel{
   color: green;
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
 }
 .step{
   height: 100%;
