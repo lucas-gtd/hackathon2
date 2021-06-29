@@ -6,12 +6,41 @@
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'>
 <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'><link rel="stylesheet" href="./assets/css/list.css">
 
+
 </head>
 <body>
 <!-- partial:index.partial.html -->
 <section class="container">
     <div class="page-header">
         <img src="./assets/fiver.png">
+    </div>
+
+    <div style="display: flex; flex-direction: column;">
+        <select style="height: 4rem; margin-bottom: 2rem;" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>Select job category</option>
+            <option value="1">Graphics & Design</option>
+            <option value="2">Digital Marketing</option>
+            <option value="3">Video & Animation</option>
+            <option value="4">Music & Audio</option>
+            <option value="5">Programming & Tech</option>
+            <option value="6">Writing & Translation</option>
+            <option value="7">DataNEW</option>
+            <option value="7">Business</option>
+          </select>
+          
+          <select style="height: 4rem; margin-bottom: 2rem;" class="form-select form-select-sm" aria-label=".form-select-sm example">
+            <option selected>Seller Details</option>
+            <option value="1">Level One</option>
+            <option value="2">Level two</option>
+            <option value="3">Top rated seller</option>
+          </select>
+
+          <select style="height: 4rem;" class="form-select form-select-sm" aria-label=".form-select-sm example">
+            <option selected>Seller Langage</option>
+            <option value="1">English</option>
+            <option value="2">Français</option>
+            <option value="3">Esapanol</option>
+          </select>
     </div>
 
     <div id="freelancers-list" class="row active-with-click">
