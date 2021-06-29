@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto%22");
+* {
+ 
+  font-family: "Roboto", sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+
+.card {
+  position: relative;
+  background: #fff;
+  max-width: 500px;
+  margin: 20px auto;
+  box-shadow: 0px 0px 30px 2px #000;
+
+}
+.card .header {
+  background: url("../fiverr.jpg") no-repeat center;
+  background-size: contain;
+  min-height: 250px;
+}
+
+.card .text .food {
+  color: #212129;
+  text-align: left;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 5px 30px;
+}
+
+
+.card .stars {
+  margin: 10px 30px;
+}
+
+.card .info {
+  margin: 10px 30px;
+}
+.card a.btn {
+  display: block;
+  background: #00732e;
+  color: #fff;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding: 10px;
+  transition: 250ms;
+}
+
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+#date {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#container  {
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+
+}

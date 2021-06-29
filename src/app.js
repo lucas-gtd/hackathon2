@@ -12,7 +12,12 @@ app.use('/assets', express.static(path.join(__dirname, 'assets')));
 app.get('/', (req, res)=>{
     res.sendFile(__dirname+'/index.html');
 });
-
+app.get('/infos', (req, res)=>{
+    res.sendFile(__dirname+'/infos.html');
+});
+app.get('/list', (req, res)=>{
+    res.sendFile(__dirname+'/list.html');
+});
 
 io.of('/stream').on('connection', stream);
 
