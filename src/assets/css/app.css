@@ -14,6 +14,16 @@
     padding-top: 15px;
     min-height: 100vh;
 }
+#file{
+    width:100%;
+}
+label{
+   
+    margin-top: 40px;
+    color: green;
+    display: flex;
+    justify-content: center;
+  }
 
 .chat-col.chat-opened {
     right: 0;

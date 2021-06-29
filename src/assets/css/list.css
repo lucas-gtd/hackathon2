@@ -30,7 +30,15 @@ body {
   background: linear-gradient(to top, #003912, #00732e, #1dbf73);
   height: 100vh;
 }
-
+#file{
+  width:100%;
+ 
+}
+label{
+  color: green;
+  display: flex;
+  justify-content: center;
+}
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;

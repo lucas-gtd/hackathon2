@@ -10,7 +10,14 @@
   box-sizing: border-box;
 }
 
-
+#file{
+  width:100%;
+}
+label{
+  color: green;
+  display: flex;
+  justify-content: center;
+}
 
 
 .card {
