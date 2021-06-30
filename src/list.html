@@ -16,8 +16,8 @@
     </div>
 
     <div style="display: flex; flex-direction: column;">
-        <select style="height: 4rem; margin-bottom: 2rem;" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-            <option selected>Select job category</option>
+        <select  id="jobChoice"style="height: 4rem; margin-bottom: 2rem;" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option value="0" selected>Select job category</option>
             <option value="1">Graphics & Design</option>
             <option value="2">Digital Marketing</option>
             <option value="3">Video & Animation</option>
@@ -25,18 +25,18 @@
             <option value="5">Programming & Tech</option>
             <option value="6">Writing & Translation</option>
             <option value="7">DataNEW</option>
-            <option value="7">Business</option>
+            <option value="8">Business</option>
           </select>
           
-          <select style="height: 4rem; margin-bottom: 2rem;" class="form-select form-select-sm" aria-label=".form-select-sm example">
-            <option selected>Seller Details</option>
+          <select  id="sellerDetails" style="height: 4rem; margin-bottom: 2rem;" class="form-select form-select-sm" aria-label=".form-select-sm example">
+            <option value="0" selected>Seller Details</option>
             <option value="1">Level One</option>
             <option value="2">Level two</option>
             <option value="3">Top rated seller</option>
           </select>
 
-          <select style="height: 4rem;" class="form-select form-select-sm" aria-label=".form-select-sm example">
-            <option selected>Seller Langage</option>
+          <select  id="sellerLanguage" style="height: 4rem;" class="form-select form-select-sm" aria-label=".form-select-sm example">
+            <option value="0" selected>Seller Langage</option>
             <option value="1">English</option>
             <option value="2">Français</option>
             <option value="3">Esapanol</option>
@@ -82,7 +82,7 @@
 
 
 <!-- partial -->
-<script type="text/javascript" src="./assets/freelancers.json"></script>
+
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./assets/js/list.js"></script>
 
 </body>
