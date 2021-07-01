@@ -36,7 +36,39 @@ body {
   margin: 40px 0 20px;
   border-bottom: 0px solid #eee;
 }
-
+#file{
+  width:100%;
+}
+.classlabel{
+  color: green;
+  display: flex;
+  justify-content: center;
+}
+.step{
+  
+  width: 100%;
+}
+.mc-description{
+  color: white;
+}
+h2{
+  margin-right: 200px;
+  width: 400px;
+  margin-top: 50px;
+  color:white;
+  font-size: 2rem;
+}
+h4{
+  color: blue;
+}
+.leaugo{
+  font-size: 30px;
+  width: 30%;
+  height: 30%;
+}
+.img-container{
+  margin:20px;
+}
 img {
 
   height: 20vh;
@@ -50,6 +82,7 @@ img {
 .material-card {
   position: relative;
   height: 0;
+ 
   padding-bottom: calc(100% - 16px);
   margin-bottom: 6.6em;
 }

@@ -11,7 +11,18 @@
 }
 
 
-
+#file{
+  width:100%;
+}
+.classlabel{
+  color: green;
+  display: flex;
+  justify-content: center;
+}
+.step{
+  height: 100%;
+  width: 100%;
+}
 
 .card {
   position: relative;
