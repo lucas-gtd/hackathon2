@@ -1,6 +1,20 @@
 .backgroundGreen{
     background-color: #1dbf73;
 }
+#file{
+    width:100%;
+  }
+  .classlabel{
+      
+    color: green;
+    display: flex;
+    justify-content: center;
+  }
+  .step{
+    margin-top: 35px;
+    height: 100%;
+    width: 100%;
+  }
 .chat-col{
     right: -100vw;
     bottom: 0;

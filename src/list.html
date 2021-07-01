@@ -6,18 +6,55 @@
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'>
 <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'><link rel="stylesheet" href="./assets/css/list.css">
 
+
 </head>
 <body>
+    <div class="step">
+    <label class="classlabel" for="file">Step 1: Choose your Freelanceur</label>
+    <progress id="file" max="100" value="30" optimum="80"> 70% </progress>
+</div>
 <!-- partial:index.partial.html -->
 <section class="container">
     <div class="page-header">
         <img src="./assets/fiver.png">
     </div>
-    <div class="row active-with-click">
-        <div class="col-md-4 col-sm-6 col-xs-12">
+
+    <div style="display: flex; flex-direction: column;">
+        <select  id="jobChoice"style="height: 4rem; margin-bottom: 2rem;" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option value="0" selected>Select job category</option>
+            <option value="1">Graphics & Design</option>
+            <option value="2">Digital Marketing</option>
+            <option value="3">Video & Animation</option>
+            <option value="4">Music & Audio</option>
+            <option value="5">Programming & Tech</option>
+            <option value="6">Writing & Translation</option>
+            <option value="7">DataNEW</option>
+            <option value="8">Business</option>
+          </select>
+          
+          <select  id="sellerDetails" style="height: 4rem; margin-bottom: 2rem;" class="form-select form-select-sm" aria-label=".form-select-sm example">
+            <option value="0" selected>Seller Details</option>
+            <option value="1">Level One</option>
+            <option value="2">Level two</option>
+            <option value="3">Top rated seller</option>
+          </select>
+
+          <select  id="sellerLanguage" style="height: 4rem;" class="form-select form-select-sm" aria-label=".form-select-sm example">
+            <option value="0" selected>Seller Langage</option>
+            <option value="1">English</option>
+            <option value="2">Français</option>
+            <option value="3">Esapanol</option>
+          </select>
+    </div>
+
+    <div id="freelancers-list" class="row active-with-click">
+<script type="text/javascript">
+
+</script>
+        <!--<div class="col-md-4 col-sm-6 col-xs-12">
             <article class="material-card Red">
                 <h2>
-                    <span>Loic PIMET</span>
+                    <span>Loic</span>
                     <strong>
                         <i class="fa fa-fw fa-star"></i>
                         Coiffeur à domicile
@@ -43,168 +80,15 @@
                     <a class="fa fa-fw fa-linkedin"></a>
                     <a class="fa fa-fw fa-globe"></a>
                 </div>
-            </article>
-        </div>
-        <div class="col-md-4 col-sm-6 col-xs-12">
-            <article class="material-card Red">
-                <h2>
-                    <span>Loic PIMET</span>
-                    <strong>
-                        <i class="fa fa-fw fa-star"></i>
-                        Coiffeur à domicile
-                    </strong>
-                </h2>
-                <div class="mc-content">
-                    <div class="img-container">
-                        <img class="img-responsive" src="https://material-cards.s3-eu-west-1.amazonaws.com/thumb-christopher-walken.jpg">
-                    </div>
-                    <div class="mc-description">
-                        He has appeared in more than 100 films and television shows, including The Deer Hunter, Annie Hall, The Prophecy trilogy, The Dogs of War ...
-                    </div>
-                </div>
-                <a class="mc-btn-action">
-                    <i class="fa fa-bars"></i>
-                </a>
-                <div class="mc-footer">
-                    <h4>
-                        Social
-                    </h4>
-                    <a class="fa fa-fw fa-facebook"></a>
-                    <a class="fa fa-fw fa-twitter"></a>
-                    <a class="fa fa-fw fa-linkedin"></a>
-                    <a class="fa fa-fw fa-globe"></a>
-                </div>
-            </article>
-        </div>
-        <div class="col-md-4 col-sm-6 col-xs-12">
-            <article class="material-card Red">
-                <h2>
-                    <span>Loic PIMET</span>
-                    <strong>
-                        <i class="fa fa-fw fa-star"></i>
-                        Coiffeur à domicile
-                    </strong>
-                </h2>
-                <div class="mc-content">
-                    <div class="img-container">
-                        <img class="img-responsive" src="https://material-cards.s3-eu-west-1.amazonaws.com/thumb-christopher-walken.jpg">
-                    </div>
-                    <div class="mc-description">
-                        He has appeared in more than 100 films and television shows, including The Deer Hunter, Annie Hall, The Prophecy trilogy, The Dogs of War ...
-                    </div>
-                </div>
-                <a class="mc-btn-action">
-                    <i class="fa fa-bars"></i>
-                </a>
-                <div class="mc-footer">
-                    <h4>
-                        Social
-                    </h4>
-                    <a class="fa fa-fw fa-facebook"></a>
-                    <a class="fa fa-fw fa-twitter"></a>
-                    <a class="fa fa-fw fa-linkedin"></a>
-                    <a class="fa fa-fw fa-globe"></a>
-                </div>
-            </article>
-        </div>
-        <div class="col-md-4 col-sm-6 col-xs-12">
-            <article class="material-card Red">
-                <h2>
-                    <span>Loic PIMET</span>
-                    <strong>
-                        <i class="fa fa-fw fa-star"></i>
-                        Coiffeur à domicile
-                    </strong>
-                </h2>
-                <div class="mc-content">
-                    <div class="img-container">
-                        <img class="img-responsive" src="https://material-cards.s3-eu-west-1.amazonaws.com/thumb-christopher-walken.jpg">
-                    </div>
-                    <div class="mc-description">
-                        He has appeared in more than 100 films and television shows, including The Deer Hunter, Annie Hall, The Prophecy trilogy, The Dogs of War ...
-                    </div>
-                </div>
-                <a class="mc-btn-action">
-                    <i class="fa fa-bars"></i>
-                </a>
-                <div class="mc-footer">
-                    <h4>
-                        Social
-                    </h4>
-                    <a class="fa fa-fw fa-facebook"></a>
-                    <a class="fa fa-fw fa-twitter"></a>
-                    <a class="fa fa-fw fa-linkedin"></a>
-                    <a class="fa fa-fw fa-globe"></a>
-                </div>
-            </article>
-        </div>
-        <div class="col-md-4 col-sm-6 col-xs-12">
-            <article class="material-card Red">
-                <h2>
-                    <span>Loic PIMET</span>
-                    <strong>
-                        <i class="fa fa-fw fa-star"></i>
-                        Coiffeur à domicile
-                    </strong>
-                </h2>
-                <div class="mc-content">
-                    <div class="img-container">
-                        <img class="img-responsive" src="https://material-cards.s3-eu-west-1.amazonaws.com/thumb-christopher-walken.jpg">
-                    </div>
-                    <div class="mc-description">
-                        He has appeared in more than 100 films and television shows, including The Deer Hunter, Annie Hall, The Prophecy trilogy, The Dogs of War ...
-                    </div>
-                </div>
-                <a class="mc-btn-action">
-                    <i class="fa fa-bars"></i>
-                </a>
-                <div class="mc-footer">
-                    <h4>
-                        Social
-                    </h4>
-                    <a class="fa fa-fw fa-facebook"></a>
-                    <a class="fa fa-fw fa-twitter"></a>
-                    <a class="fa fa-fw fa-linkedin"></a>
-                    <a class="fa fa-fw fa-globe"></a>
-                </div>
-            </article>
-        </div>
-        <div class="col-md-4 col-sm-6 col-xs-12">
-            <article class="material-card Red">
-                <h2>
-                    <span>Loic PIMET</span>
-                    <strong>
-                        <i class="fa fa-fw fa-star"></i>
-                        Coiffeur à domicile
-                    </strong>
-                </h2>
-                <div class="mc-content">
-                    <div class="img-container">
-                        <img class="img-responsive" src="https://material-cards.s3-eu-west-1.amazonaws.com/thumb-christopher-walken.jpg">
-                    </div>
-                    <div class="mc-description">
-                        He has appeared in more than 100 films and television shows, including The Deer Hunter, Annie Hall, The Prophecy trilogy, The Dogs of War ...
-                    </div>
-                </div>
-                <a class="mc-btn-action">
-                    <i class="fa fa-bars"></i>
-                </a>
-                <div class="mc-footer">
-                    <h4>
-                        Social
-                    </h4>
-                    <a class="fa fa-fw fa-facebook"></a>
-                    <a class="fa fa-fw fa-twitter"></a>
-                    <a class="fa fa-fw fa-linkedin"></a>
-                    <a class="fa fa-fw fa-globe"></a>
-                </div>
-            </article>
-        </div>
+            </article> 
+       </div>--> 
+      
     </div>
 </section>
 
 
 <!-- partial -->
+
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./assets/js/list.js"></script>
 
 </body>
